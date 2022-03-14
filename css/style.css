@@ -29,6 +29,16 @@ nav{
     background-color: var(--background-default);
     margin-right: 30vh;
     border-right: 3px solid var(--color-text);
+    display:block;
+}
+/* 
+.social-media a{
+    padding: 2vh;
+    background-color: var(--color-text);
+    border-radius:50%;
+} */
+.social-media svg{
+    color: var(--background-default)
 }
 
 .logo h1{
@@ -39,7 +49,17 @@ nav{
 .navbar li{
     margin-top: 2vh;
 }
-.navbar a{
+
+
+.footer a{
+    text-align: center;
+    margin-top: 38vh;
+    display:block;
+    color: var(--color-text);
+} 
+    
+
+    .navbar a{
     color: var(--color-text);
     text-transform: none;
     font-family: 'roboto',sans-serif;
@@ -77,8 +97,13 @@ article{
     margin-bottom: 5vh;
     margin-left: -3vh;
 }
+
+.banner-main button{
+    align-items: center;
+    margin-left: 40vh;
+}
 .banner-main p{
-    margin-left: 8vh;
+    margin-left: 6vh;
 }
 .banner-main h1{
     font-size: 8vh;
@@ -160,14 +185,15 @@ article{
 
 /* main-services */
 .main-services{
-    display: flex;
+    display: block;
 }
 .main-services h1{
     align-content: center;
     font-family: 'roboto', sans-serif;
     font-size: 3vh;
     color: var(--color-text);
-    /* margin-left: 40%; */
+    margin-left: 35%; 
+    margin-bottom: 5%;
 }
 .services{
     display:grid;
@@ -179,7 +205,17 @@ article{
     background-color: #c4c4c4;
     border-radius: 10vh;
 }
+.conteudo a{
+    margin-top: 2vh;
+    margin-left: -3vh;
     
+    background-color: var(--background-default);
+    border: 2px solid var(--color-text);
+    padding: 2vh 4vh;
+    border-radius: 1vh;
+    font-family: 'roboto', sans-serif;
+    color: var(--color-text);
+}
 button {
     background-color: var(--background-default);
     border: 2px solid var(--color-text);
@@ -204,3 +240,5 @@ button {
 .buttons:nth-child(3){
     background-color: #ff0000;
 }
+
+
