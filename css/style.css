@@ -75,6 +75,10 @@ margin-bottom: 5vh;
 article{
     color: #fff;
     margin-bottom: 5vh;
+    margin-left: -3vh;
+}
+.banner-main p{
+    margin-left: 8vh;
 }
 .banner-main h1{
     font-size: 8vh;
@@ -175,7 +179,7 @@ article{
     background-color: #c4c4c4;
     border-radius: 10vh;
 }
-
+    
 button {
     background-color: var(--background-default);
     border: 2px solid var(--color-text);
